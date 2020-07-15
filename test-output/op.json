@@ -1,0 +1,394 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2187300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefinitionClass.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:39.714Z",
+        "line": 7,
+        "name": "Try First Scenario",
+        "description": "",
+        "id": "first-fearture;try-first-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "First Method test",
+            "match": {
+              "location": "StepDefinitionClass.first_method_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Second method test with args \"Hi\" and \" everybody\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hi",
+                  "offset": 30
+                },
+                {
+                  "val": " everybody",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitionClass.second_method_test_with_args_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Method with args1 and args2",
+            "match": {
+              "location": "StepDefinitionClass.method_with_args1_and_args2(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First",
+                  "argument"
+                ]
+              },
+              {
+                "cells": [
+                  "Second",
+                  "argument"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1850000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Method for testing Maps",
+            "match": {
+              "location": "StepDefinitionClass.method_for_testing_maps(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Keys1",
+                  "Keys2"
+                ]
+              },
+              {
+                "cells": [
+                  "Value 1",
+                  "value a"
+                ]
+              },
+              {
+                "cells": [
+                  "Value 2",
+                  "Value b"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Complete the Scenario",
+            "match": {
+              "location": "StepDefinitionClass.complete_the_scenario()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "First Fearture",
+    "description": "",
+    "id": "first-fearture",
+    "keyword": "Feature",
+    "uri": "classpath:featuresPackage/features1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2232000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefinitionClass.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:39.714Z",
+        "line": 15,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefinitionClass.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Try passing args\"Value A\" and \"Value B\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value A",
+                  "offset": 17
+                },
+                {
+                  "val": "Value B",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionClass.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefinitionClass.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 105100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefinitionClass.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:39.726Z",
+        "line": 16,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefinitionClass.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Try passing args\"value C\" and \"Value D\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value C",
+                  "offset": 17
+                },
+                {
+                  "val": "Value D",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionClass.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefinitionClass.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 58800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefinitionClass.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:39.728Z",
+        "line": 17,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefinitionClass.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Try passing args\"Value E\" and \"value F\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value E",
+                  "offset": 17
+                },
+                {
+                  "val": "value F",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionClass.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefinitionClass.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Fearture",
+    "description": "",
+    "id": "first-fearture",
+    "keyword": "Feature",
+    "uri": "classpath:featuresPackage/features2.feature",
+    "tags": []
+  }
+]
